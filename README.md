@@ -23,9 +23,9 @@ This is a starter template for [socket.io with nodejs](https://socket.io/) proje
 	})
 	*5.* node index.js -- Our back-end is ready.
 	
-	## OR ##
+	## OR
 	
-	*1.* git clone https://github.com/info-ankit/multi-chat-server.git
+	**1.** git clone https://github.com/info-ankit/multi-chat-server.git
 	*2.* cd multi-chat-server
 	*3.* npm install
 	*4.* node index.js -- Our back-end is ready.
