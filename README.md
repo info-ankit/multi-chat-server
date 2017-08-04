@@ -1,11 +1,16 @@
 This is a starter template for [socket.io with nodejs](https://socket.io/) projects.
 
-## How to use this template
+## How to use this template -
 
-	*1.* rename package.json
-	*2.* npm init (fill in the details accordingly) -- Like - name, version, description, main, scripts, author, license.
-	*3.* npm install socket.io --save
-	*4.* Now create a new file index.js in the project directory and enter the below code.
+*This template does not work on its own*. To use this template, either create a new node project using the npm init node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/info-ankit/multi-chat-server.git).
+
+### With the NodeJs:
+
+	```bash
+	$ rename package.json
+	$ npm init (fill in the details accordingly) -- Like - name, version, description, main, scripts, author, license.
+	$ npm install socket.io --save
+	$ Now create a new file index.js in the project directory and enter the below code.
 	var io = require('socket.io'),
 		http = require('http'),
 		server = http.createServer(),
@@ -21,11 +26,14 @@ This is a starter template for [socket.io with nodejs](https://socket.io/) proje
 	server.listen(3000, function(){
 		console.log('Server started');
 	})
-	*5.* node index.js -- Our back-end is ready.
+	$ node index.js -- Our back-end is ready.
+	```
 	
-	## OR
+	## Or use this -
 	
-	**1.** git clone https://github.com/info-ankit/multi-chat-server.git
-	*2.* cd multi-chat-server
-	*3.* npm install
-	*4.* node index.js -- Our back-end is ready.
+	```bash
+	$ git clone https://github.com/info-ankit/multi-chat-server.git
+	$ cd multi-chat-server
+	$ npm install
+	$ node index.js -- Our back-end is ready.
+	```
