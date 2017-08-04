@@ -6,11 +6,11 @@ This is a starter template for [socket.io with nodejs](https://socket.io/) proje
 
 ### With the NodeJs:
 
-	```bash
-	$ rename package.json
-	$ npm init (fill in the details accordingly) -- Like - name, version, description, main, scripts, author, license.
-	$ npm install socket.io --save
-	$ Now create a new file index.js in the project directory and enter the below code.
+```bash
+$ rename package.json
+$ npm init (fill in the details accordingly) -- Like - name, version, description, main, scripts, author, license.
+$ npm install socket.io --save
+$ Now create a new file index.js in the project directory and enter the below code.
 	var io = require('socket.io'),
 		http = require('http'),
 		server = http.createServer(),
@@ -18,7 +18,7 @@ This is a starter template for [socket.io with nodejs](https://socket.io/) proje
 
 	io.on('connection', function(socket) {
 		console.log('User Connected');
-		socket.on('message', function(msg){
+			socket.on('message', function(msg){
 			io.emit('message', msg);
 		});
 	});
@@ -26,14 +26,14 @@ This is a starter template for [socket.io with nodejs](https://socket.io/) proje
 	server.listen(3000, function(){
 		console.log('Server started');
 	})
-	$ node index.js -- Our back-end is ready.
-	```
-	
-	## Or use this -
-	
-	```bash
-	$ git clone https://github.com/info-ankit/multi-chat-server.git
-	$ cd multi-chat-server
-	$ npm install
-	$ node index.js -- Our back-end is ready.
-	```
+$ node index.js -- Our back-end is ready.
+```
+
+## Or use this -
+
+```bash
+$ git clone https://github.com/info-ankit/multi-chat-server.git
+$ cd multi-chat-server
+$ npm install
+$ node index.js -- Our back-end is ready.
+```
