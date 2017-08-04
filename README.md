@@ -1,4 +1,4 @@
-This is a starter template for [socket.io with nodejs](http://ionicframework.com/docs/) projects.
+This is a starter template for [socket.io with nodejs](https://socket.io/) projects.
 
 ## How to use this template
 
